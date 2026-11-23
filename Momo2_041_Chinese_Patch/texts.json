@@ -1,0 +1,1743 @@
+[
+  {
+    "id": "t001",
+    "kind": "ui",
+    "source": "PAUSE",
+    "target": "暂停",
+    "locations": [
+      199667
+    ]
+  },
+  {
+    "id": "t002",
+    "kind": "ui",
+    "source": "Game Saved!",
+    "target": "已保存！",
+    "locations": [
+      209950
+    ]
+  },
+  {
+    "id": "t003",
+    "kind": "ui",
+    "source": "Slot 1",
+    "target": "存档一",
+    "locations": [
+      227888,
+      435440,
+      435440,
+      435440,
+      435440,
+      435440
+    ]
+  },
+  {
+    "id": "t004",
+    "kind": "ui",
+    "source": "New Game",
+    "target": "新游戏",
+    "locations": [
+      227888,
+      227888,
+      227888
+    ]
+  },
+  {
+    "id": "t005",
+    "kind": "ui",
+    "source": "Slot 2",
+    "target": "存档二",
+    "locations": [
+      227888,
+      435440,
+      435440,
+      435440,
+      435440,
+      435440
+    ]
+  },
+  {
+    "id": "t006",
+    "kind": "ui",
+    "source": "Slot 3",
+    "target": "存档三",
+    "locations": [
+      227888,
+      435440,
+      435440,
+      435440,
+      435440,
+      435440
+    ]
+  },
+  {
+    "id": "t007",
+    "kind": "ui",
+    "source": "Delete Save File          Controls",
+    "target": "删除存档          操作说明",
+    "locations": [
+      227888
+    ]
+  },
+  {
+    "id": "t008",
+    "kind": "ui",
+    "source": "####todo:#tiles#room creation stuff#deleting things#backgrounds#warp between rooms#save all variables for each obj",
+    "target": "####待办：#图块#房间创建相关#删除对象#背景#房间传送#保存每个对象的全部变量",
+    "locations": [
+      241192
+    ]
+  },
+  {
+    "id": "t009",
+    "kind": "dialogue",
+    "source": "aaa",
+    "target": "aaa",
+    "locations": [
+      244589,
+      259808
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t010",
+    "kind": "dialogue",
+    "source": "test2",
+    "target": "test2",
+    "locations": [
+      244589,
+      259808
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t011",
+    "kind": "dialogue",
+    "source": "Thanks... for freeing me...",
+    "target": "谢谢……你救了我……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t012",
+    "kind": "dialogue",
+    "source": "You are... Momo?#I'm glad you came here to save me...",
+    "target": "你是……莫莫？#很高兴你来救我……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t013",
+    "kind": "dialogue",
+    "source": "I remember entering Terra Altar and fighting that#Underworld Queen, but I didn't find what I was looking for...",
+    "target": "我记得我进入泰拉祭坛，#和那位冥界女王交战，#却没找到要找的东西……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t014",
+    "kind": "dialogue",
+    "source": "Instead, I was cursed as an Underworld Queen and became#the ruler of this forsaken shrine...",
+    "target": "后来我被诅咒成冥界女王，#成了这座废弃神殿的统治者……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t015",
+    "kind": "dialogue",
+    "source": "I... I am sorry for everything I've done...",
+    "target": "我……我为所做的一切道歉……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t016",
+    "kind": "dialogue",
+    "source": "I hope you can forgive me...",
+    "target": "希望你能原谅我……",
+    "locations": [
+      248852
+    ]
+  },
+  {
+    "id": "t017",
+    "kind": "dialogue",
+    "source": "rdein: Thank you for playing.#This stage and the next are still incomplete,#so this is all I have so far!",
+    "target": "rdein: 感谢游玩。#本关和下一关尚未完成，#目前只能做到这里！",
+    "locations": [
+      250201
+    ]
+  },
+  {
+    "id": "t018",
+    "kind": "dialogue",
+    "source": "You found a Love Letter!",
+    "target": "你找到了情书！",
+    "locations": [
+      258657
+    ]
+  },
+  {
+    "id": "t019",
+    "kind": "dialogue",
+    "source": "Within the letter, words filled with love and joy became swarmingly#attached to your soul.",
+    "target": "信中满载爱意与喜悦的字句，#深深印入你的灵魂。",
+    "locations": [
+      258657
+    ]
+  },
+  {
+    "id": "t020",
+    "kind": "dialogue",
+    "source": "After reading it, the Love Letter vanishes into thin air.##Health boosted!",
+    "target": "读完后，情书化作轻烟消散。##生命值提升！",
+    "locations": [
+      258657
+    ]
+  },
+  {
+    "id": "t021",
+    "kind": "dialogue",
+    "source": "You got the Twinkle Pendant!",
+    "target": "你获得了闪光吊坠！",
+    "locations": [
+      264563
+    ]
+  },
+  {
+    "id": "t022",
+    "kind": "dialogue",
+    "source": "Now you can dash by double-tapping left or right.#Dashing lets you destroy blocks with a star symbol.",
+    "target": "快速连按左键或右键即可冲刺。#冲刺可击碎带星星标记的方块。",
+    "locations": [
+      264563
+    ]
+  },
+  {
+    "id": "t023",
+    "kind": "ui",
+    "source": "MOMODORA II#(C) 2011 RDEIN",
+    "target": "MOMODORA II#(C) 2011 RDEIN",
+    "locations": [
+      271483
+    ],
+    "retain_reason": "保留原版游戏名及完整版权署名，保持大小写、年份与换行标记原样。"
+  },
+  {
+    "id": "t024",
+    "kind": "dialogue",
+    "source": "A strange crest is engraved here. It's sealed by some kind of power.",
+    "target": "这里刻着奇怪的徽记，#似乎被某种力量封印。",
+    "locations": [
+      279535
+    ]
+  },
+  {
+    "id": "t025",
+    "kind": "dialogue",
+    "source": "bombservice meeting room##-staff only allowed!-",
+    "target": "bombservice会议室##-仅限员工进入！-",
+    "locations": [
+      281714
+    ]
+  },
+  {
+    "id": "t026",
+    "kind": "dialogue",
+    "source": "You got the KoHo Charm!",
+    "target": "你获得了科霍护符！",
+    "locations": [
+      284405,
+      296336
+    ]
+  },
+  {
+    "id": "t027",
+    "kind": "dialogue",
+    "source": "It's a seal you can throw pressing Up + S.#It's powerful enough to destroy certain kinds of blocks.",
+    "target": "按上键+S即可投掷印记。#威力强大，可击碎特定方块。",
+    "locations": [
+      284405
+    ]
+  },
+  {
+    "id": "t028",
+    "kind": "ui",
+    "source": "The birth of an underworld queen is seen as a disaster to#people around the world.\r\nRecently, a girl was cursed into one of these queens,#becoming the source of an imminent evil to the land of KoHo.",
+    "target": "冥界女王的诞生，被世人视为灾祸。#近日，一名少女遭受诅咒，#化作这样的女王，成为邪恶之源，#令科霍大地陷入迫近的灾厄。",
+    "locations": [
+      287683
+    ]
+  },
+  {
+    "id": "t029",
+    "kind": "ui",
+    "source": "#As a maiden from the KoHo village, Momo's mission is to seal#the underworld queen from the forbidden ancient#shrine Terra Altar.\r\nTo reach the queen's throne and finish her mission, Momo#needs to pray to the 4 gods scattered across the shrine and#receive their blessing.",
+    "target": "#身为科霍村巫女，莫莫奉命封印#禁忌古神殿“大地祭坛”中的冥界女王。#为了抵达女王的王座、完成使命，#她须向神殿各处的四位神明祈祷，#获得祂们的祝福。",
+    "locations": [
+      287683
+    ]
+  },
+  {
+    "id": "t030",
+    "kind": "ui",
+    "source": "##But she is not the only one inside the temple.#Seeking the sacred powers from Terra Altar, other adventurers#wander around the ruins...",
+    "target": "##但神殿之中，并非只有她一人。#其他冒险者也在废墟间徘徊，#追寻着大地祭坛的神圣力量……",
+    "locations": [
+      287683
+    ]
+  },
+  {
+    "id": "t031",
+    "kind": "dialogue",
+    "source": "Hmm, so it's just a KoHo maiden after all...",
+    "target": "嗯，原来只是个科霍巫女……",
+    "locations": [
+      289029
+    ]
+  },
+  {
+    "id": "t032",
+    "kind": "dialogue",
+    "source": "I presume your mission here is to kill me, right?",
+    "target": "我想你是来杀我的，对吧？",
+    "locations": [
+      289029
+    ]
+  },
+  {
+    "id": "t033",
+    "kind": "dialogue",
+    "source": "Unfortunately that's unlikely to happen.",
+    "target": "可惜，你恐怕办不到。",
+    "locations": [
+      289029
+    ]
+  },
+  {
+    "id": "t034",
+    "kind": "dialogue",
+    "source": "Just go away.#You're so weak killing you right now wouldn't even be fun!",
+    "target": "滚开。#你太弱了，现在杀你都没意思！",
+    "locations": [
+      289029
+    ]
+  },
+  {
+    "id": "t035",
+    "kind": "dialogue",
+    "source": "You got the Wave Charm!",
+    "target": "你获得了波动护符！",
+    "locations": [
+      295325
+    ]
+  },
+  {
+    "id": "t036",
+    "kind": "dialogue",
+    "source": "Your seals can go through walls now!!",
+    "target": "你的印记现在能穿墙了！！",
+    "locations": [
+      295325
+    ]
+  },
+  {
+    "id": "t037",
+    "kind": "dialogue",
+    "source": "Your seals are stronger now!",
+    "target": "你的印记变得更强了！",
+    "locations": [
+      296336
+    ]
+  },
+  {
+    "id": "t038",
+    "kind": "dialogue",
+    "source": "And just who are you now?#Get the fuck out of my way!",
+    "target": "你又是谁？#给我滚开，别挡路！",
+    "locations": [
+      299459
+    ]
+  },
+  {
+    "id": "t039",
+    "kind": "dialogue",
+    "source": "#...if you insist on being there, I'm going to beat you to a pulp!",
+    "target": "#……你要是还挡着，#我就把你揍成肉泥！",
+    "locations": [
+      299459
+    ]
+  },
+  {
+    "id": "t040",
+    "kind": "dialogue",
+    "source": "#Reaching far-off distances, your prayers touch the hearts of the Gods...",
+    "target": "#你的祈祷传至远方，#触动了诸神的心……",
+    "locations": [
+      307547,
+      309100,
+      381229,
+      384344
+    ]
+  },
+  {
+    "id": "t041",
+    "kind": "dialogue",
+    "source": "#You have been blessed by Milori.",
+    "target": "#你受到了米洛里的祝福。",
+    "locations": [
+      307547
+    ]
+  },
+  {
+    "id": "t042",
+    "kind": "dialogue",
+    "source": "#You have been blessed by Luna.",
+    "target": "#你受到了露娜的祝福。",
+    "locations": [
+      309100
+    ]
+  },
+  {
+    "id": "t043",
+    "kind": "dialogue",
+    "source": "After running away from so many one-eyed freaks, I meet#a decent human.",
+    "target": "逃过那么多独眼怪后，#总算遇见个像样的人。",
+    "locations": [
+      312765
+    ]
+  },
+  {
+    "id": "t044",
+    "kind": "dialogue",
+    "source": "...I'll definitely keep your name in my memory.#As for my name, it's Melko.",
+    "target": "……我会牢牢记住你的名字。#至于我，我叫梅尔珂。",
+    "locations": [
+      312765
+    ]
+  },
+  {
+    "id": "t045",
+    "kind": "dialogue",
+    "source": "I come from a very far away land, in search of the missing#princess from my country.",
+    "target": "我来自遥远的国度，#正在寻找失踪的公主。",
+    "locations": [
+      312765
+    ]
+  },
+  {
+    "id": "t046",
+    "kind": "dialogue",
+    "source": "Our princess' name is Eri. She supposedly fled the kingdom#after seeing the dreadful state of our citizens outside#the royal family...",
+    "target": "我们的公主名叫艾莉。听说她#见到王族以外子民的惨状后，#便逃离了王国……",
+    "locations": [
+      312765,
+      314727
+    ]
+  },
+  {
+    "id": "t047",
+    "kind": "dialogue",
+    "source": "I have heard people saying she came here looking for the#sacred powers hidden within, but where is she?#If you ever find her, can you bring her back here?",
+    "target": "听说她来此寻找神圣力量，#可她人在哪儿？#若你找到她，能带她回来吗？",
+    "locations": [
+      312765,
+      314727
+    ]
+  },
+  {
+    "id": "t048",
+    "kind": "ui",
+    "source": "MAP   ",
+    "target": "地图   ",
+    "locations": [
+      318717
+    ]
+  },
+  {
+    "id": "t049",
+    "kind": "dialogue",
+    "source": "Oh. There you are, Momo.#I'm sorry for speeding a bit, but#I had to make sure this place was safe for my little sister!",
+    "target": "哦，你在这儿啊，莫莫。#抱歉我走得快了点，#得先替妹妹确认这里安全！",
+    "locations": [
+      329026
+    ]
+  },
+  {
+    "id": "t050",
+    "kind": "dialogue",
+    "source": "You know, being on a mission like this isn't for any girl!#We trust that you'll find the Underworld Queen#of this shrine and defeat her.",
+    "target": "这种任务可不是谁都能胜任的！#我们相信你能找到并击败#这座神殿的冥界女王。",
+    "locations": [
+      329026
+    ]
+  },
+  {
+    "id": "t051",
+    "kind": "dialogue",
+    "source": "Ever since her appearance, we have been having problems#in our village...#Something must be done!",
+    "target": "自从她出现后，#村里就麻烦不断……#必须想想办法！",
+    "locations": [
+      329026
+    ]
+  },
+  {
+    "id": "t052",
+    "kind": "dialogue",
+    "source": "Well, I'll be heading home now.#I can't really stay with you here.#It's something you must do on your own.",
+    "target": "好了，我先回家了。#我不能一直陪着你。#这件事得靠你自己。",
+    "locations": [
+      329026
+    ]
+  },
+  {
+    "id": "t053",
+    "kind": "dialogue",
+    "source": "I hope you come back safe!#Good luck, sis!!",
+    "target": "希望你平安归来！#加油，姐姐！！",
+    "locations": [
+      329026
+    ]
+  },
+  {
+    "id": "t054",
+    "kind": "dialogue",
+    "source": "You got the Green Magic Leaf!",
+    "target": "你获得了翠绿魔法叶！",
+    "locations": [
+      335010
+    ]
+  },
+  {
+    "id": "t055",
+    "kind": "dialogue",
+    "source": "It's stronger than your Maple Leaf, and said to be able to purify even#the heart of an Underworld Queen.",
+    "target": "它比你的枫叶更强，#据说连冥界女王的心#也能净化。",
+    "locations": [
+      335010
+    ]
+  },
+  {
+    "id": "t056",
+    "kind": "dialogue",
+    "source": "dora",
+    "target": "dora",
+    "locations": [
+      340069
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t057",
+    "kind": "dialogue",
+    "source": "nana",
+    "target": "nana",
+    "locations": [
+      340069
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t058",
+    "kind": "dialogue",
+    "source": "eri",
+    "target": "eri",
+    "locations": [
+      340069
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t059",
+    "kind": "dialogue",
+    "source": "melko",
+    "target": "melko",
+    "locations": [
+      340069
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t060",
+    "kind": "dialogue",
+    "source": "mai",
+    "target": "mai",
+    "locations": [
+      340069
+    ],
+    "retain_reason": "unused prototype or portrait identifier"
+  },
+  {
+    "id": "t061",
+    "kind": "dialogue",
+    "source": "Ughhh...!!#How can this be?!",
+    "target": "啊啊……！！#怎么会这样？！",
+    "locations": [
+      347252
+    ]
+  },
+  {
+    "id": "t062",
+    "kind": "dialogue",
+    "source": "You...You are annoying as hell!!#You better not appear in front of me again!!",
+    "target": "你……你真烦死了！！#别再让我看到你！！",
+    "locations": [
+      347252
+    ]
+  },
+  {
+    "id": "t063",
+    "kind": "dialogue",
+    "source": "Hey, Momo!",
+    "target": "嘿，莫莫！",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t064",
+    "kind": "dialogue",
+    "source": "Wait, you found Eri?!#...YOU FOUGHT HER?!!",
+    "target": "等等，你找到艾莉了？#……你还和她打了一架？！！",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t065",
+    "kind": "dialogue",
+    "source": "...",
+    "target": "……",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t066",
+    "kind": "dialogue",
+    "source": "Ah... alright. It seems everything between you two#was resolved, then.",
+    "target": "啊……好吧。看来你们俩#已经把事情解决了。",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t067",
+    "kind": "dialogue",
+    "source": "Thanks for all this information!#As soon as I can I'll start looking for her!",
+    "target": "谢谢你告诉我这些！#我一有空就去找她！",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t068",
+    "kind": "dialogue",
+    "source": "Hey, Momo! How have you been?#I have been running away from all kind of despicable#creatures for some time now.",
+    "target": "嘿，莫莫！最近如何？#我这阵子一直在躲避#各种卑鄙的怪物。",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t069",
+    "kind": "dialogue",
+    "source": "I take it that you haven't found the princess of my land#yet... right?",
+    "target": "你还没找到我国的公主吧……#对吧？",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t070",
+    "kind": "dialogue",
+    "source": "Well, I've been constantly checking back the places I have#been, in hopes of finding clues of her disappearance.",
+    "target": "我一直回到去过的地方#仔细查看，希望找到#她失踪的线索。",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t071",
+    "kind": "dialogue",
+    "source": "If you find her, could you please tell her to go to where we#first met?",
+    "target": "如果找到她，能请她#去我们初次见面的地方吗？",
+    "locations": [
+      357244,
+      358705
+    ]
+  },
+  {
+    "id": "t072",
+    "kind": "dialogue",
+    "source": "It seems some kind of force prevents me from pushing#onwards...",
+    "target": "好像有股力量阻止我#继续前进……",
+    "locations": [
+      360964
+    ]
+  },
+  {
+    "id": "t073",
+    "kind": "dialogue",
+    "source": "So let be it.#My duty here is over, then...",
+    "target": "那就这样吧。#我的职责到此为止了……",
+    "locations": [
+      360964
+    ]
+  },
+  {
+    "id": "t074",
+    "kind": "dialogue",
+    "source": "Momo...#You are the only hope for my people and yours.",
+    "target": "莫莫……#你是我们两族唯一的希望。",
+    "locations": [
+      360964
+    ]
+  },
+  {
+    "id": "t075",
+    "kind": "dialogue",
+    "source": "Be careful, though...#Can you hear these screams of pain and agony?#It seems something or someone is in deep grief...",
+    "target": "但要小心……#你听见这些痛苦的哀嚎了吗？#似乎有人正陷入深深悲伤……",
+    "locations": [
+      360964
+    ]
+  },
+  {
+    "id": "t076",
+    "kind": "dialogue",
+    "source": "Maybe only you can free that soul from such pain. ##Good luck... and may the Gods be with you.",
+    "target": "也许只有你能解脱那灵魂。##祝你好运……愿诸神与你同在。",
+    "locations": [
+      360964
+    ]
+  },
+  {
+    "id": "t077",
+    "kind": "dialogue",
+    "source": "Oh, you again? I think you were from... KoHo, right?#Sorry, I forgot your name so I guess you're not one#to give a lasting impression.",
+    "target": "哦，又是你？你来自……科霍，对吧？#抱歉，我忘了你的名字，#看来你没给我留下印象。",
+    "locations": [
+      362847
+    ]
+  },
+  {
+    "id": "t078",
+    "kind": "dialogue",
+    "source": "Ah, Momo. Right.#I still haven't progressed much on my mission...",
+    "target": "啊，莫莫。对。#我的任务还是没什么进展……",
+    "locations": [
+      362847
+    ]
+  },
+  {
+    "id": "t079",
+    "kind": "dialogue",
+    "source": "But I hope you are doing fine on yours.#It doesn't really matter which one of us, or whoever#else defeats the evil from this forsaken place.",
+    "target": "不过希望你一切顺利。#无论是我们谁，或是其他人，#只要能消灭此地邪恶就行。",
+    "locations": [
+      362847
+    ]
+  },
+  {
+    "id": "t080",
+    "kind": "dialogue",
+    "source": "As long as that evil is gone,#we will all be able to live in peace again.",
+    "target": "只要邪恶消失，#大家就能重获安宁。",
+    "locations": [
+      362847
+    ]
+  },
+  {
+    "id": "t081",
+    "kind": "dialogue",
+    "source": "Oh, a human?",
+    "target": "哦，是人类？",
+    "locations": [
+      364292
+    ]
+  },
+  {
+    "id": "t082",
+    "kind": "dialogue",
+    "source": "Ni hao...#My name is Mai.#I come from a far away land.",
+    "target": "你好……#我叫麦。#来自遥远的国度。",
+    "locations": [
+      364292
+    ]
+  },
+  {
+    "id": "t083",
+    "kind": "dialogue",
+    "source": "I am here for the same reason as you.#My people are threatened by the evil force coming from#this temple...",
+    "target": "我也为同样的理由来到这里。#神殿中的邪恶势力#威胁着我的族人……",
+    "locations": [
+      364292
+    ]
+  },
+  {
+    "id": "t084",
+    "kind": "dialogue",
+    "source": "For some reason I cannot get to the source of the evil,#though.#I wonder why...",
+    "target": "不知为何，我无法抵达#邪恶的源头。#真奇怪……",
+    "locations": [
+      364292
+    ]
+  },
+  {
+    "id": "t085",
+    "kind": "dialogue",
+    "source": "I can't believe how inefficient my kung fu is here.",
+    "target": "我的功夫在这里#竟然这么不管用。",
+    "locations": [
+      365975
+    ]
+  },
+  {
+    "id": "t086",
+    "kind": "dialogue",
+    "source": "You got the Magic Feather!",
+    "target": "你获得了魔法羽毛！",
+    "locations": [
+      370164
+    ]
+  },
+  {
+    "id": "t087",
+    "kind": "dialogue",
+    "source": "Now you can jump mid-air by pressing the jump button!",
+    "target": "现在按跳跃键，#就能在空中再次跳跃！",
+    "locations": [
+      370164
+    ]
+  },
+  {
+    "id": "t088",
+    "kind": "dialogue",
+    "source": "Sup i'm the tol fairy!!!!!! placeholder dialogue wooooooooooooooooooooo",
+    "target": "嗨，我是托尔仙子！！！！#占位对白，呜呼呼呼呼！！！",
+    "locations": [
+      371195
+    ]
+  },
+  {
+    "id": "t089",
+    "kind": "dialogue",
+    "source": "The path ahead is too dark.#...You are scared to proceed.",
+    "target": "前方一片漆黑。#……你害怕得不敢前进。",
+    "locations": [
+      372615
+    ]
+  },
+  {
+    "id": "t090",
+    "kind": "dialogue",
+    "source": "#You have been blessed by Kaho.",
+    "target": "#你受到了卡霍的祝福。",
+    "locations": [
+      381229
+    ]
+  },
+  {
+    "id": "t091",
+    "kind": "dialogue",
+    "source": "#You have been blessed by Chiemi.",
+    "target": "#你受到了千惠的祝福。",
+    "locations": [
+      384344
+    ]
+  },
+  {
+    "id": "t092",
+    "kind": "dialogue",
+    "source": "You're in my way again!#What did I tell you about getting in my way!",
+    "target": "你又挡我路了！#我说过别挡路吧！",
+    "locations": [
+      390249
+    ]
+  },
+  {
+    "id": "t093",
+    "kind": "dialogue",
+    "source": "This time I'm going to be dead serious about#ripping your bones apart!!!",
+    "target": "这次我会认真地#把你的骨头一根根拆了！！！",
+    "locations": [
+      390249
+    ]
+  },
+  {
+    "id": "t094",
+    "kind": "dialogue",
+    "source": "Why...? I've lost to you again...!!",
+    "target": "为什么……我又输给你了……！！",
+    "locations": [
+      394715
+    ]
+  },
+  {
+    "id": "t095",
+    "kind": "dialogue",
+    "source": "I'll be cheering for you!#So you can succeed your mission and keep#on bringing the good to the world!",
+    "target": "我会为你加油！#祝你完成使命，继续#为世界带来美好！",
+    "locations": [
+      396213,
+      417140
+    ]
+  },
+  {
+    "id": "t096",
+    "kind": "ui",
+    "source": "FIN",
+    "target": "完",
+    "locations": [
+      400863,
+      400863
+    ]
+  },
+  {
+    "id": "t097",
+    "kind": "ui",
+    "source": "CAST",
+    "target": "登场角色",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t098",
+    "kind": "ui",
+    "source": "Momo Reinol",
+    "target": "莫莫·雷诺尔",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t099",
+    "kind": "ui",
+    "source": "Nanashi Reinol",
+    "target": "七无·雷诺尔",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t100",
+    "kind": "ui",
+    "source": "Melko",
+    "target": "梅尔珂",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t101",
+    "kind": "ui",
+    "source": "Mai",
+    "target": "麦",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t102",
+    "kind": "ui",
+    "source": "Eri Karst",
+    "target": "艾莉·卡斯特",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t103",
+    "kind": "ui",
+    "source": "Queen Isadora",
+    "target": "伊莎多拉女王",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t104",
+    "kind": "ui",
+    "source": "Bakmen",
+    "target": "巴克人",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t105",
+    "kind": "ui",
+    "source": "Oko",
+    "target": "奥可",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t106",
+    "kind": "ui",
+    "source": "lawalawa",
+    "target": "拉瓦拉瓦",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t107",
+    "kind": "ui",
+    "source": "BAK",
+    "target": "巴克",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t108",
+    "kind": "ui",
+    "source": "Sprout",
+    "target": "芽怪",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t109",
+    "kind": "ui",
+    "source": "HHNNNGRR Sprout",
+    "target": "哼吼芽怪",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t110",
+    "kind": "ui",
+    "source": "Spirit",
+    "target": "幽灵",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t111",
+    "kind": "ui",
+    "source": "Oro",
+    "target": "奥罗",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t112",
+    "kind": "ui",
+    "source": "Starcharm",
+    "target": "星灵",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t113",
+    "kind": "ui",
+    "source": "Elder Starcharm",
+    "target": "星灵长老",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t114",
+    "kind": "ui",
+    "source": "Candlekat",
+    "target": "烛猫",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t115",
+    "kind": "ui",
+    "source": "Bakghost",
+    "target": "巴克幽魂",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t116",
+    "kind": "ui",
+    "source": "Turnip",
+    "target": "芜菁怪",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t117",
+    "kind": "ui",
+    "source": "Flowar",
+    "target": "芙洛瓦",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t118",
+    "kind": "ui",
+    "source": "Maid",
+    "target": "女仆",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t119",
+    "kind": "ui",
+    "source": "Bakwaiter",
+    "target": "巴克侍者",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t120",
+    "kind": "ui",
+    "source": "Flying Bakman",
+    "target": "飞天巴克人",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t121",
+    "kind": "ui",
+    "source": "Olho",
+    "target": "奥尔霍",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t122",
+    "kind": "ui",
+    "source": "Jichan",
+    "target": "吉昌",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t123",
+    "kind": "ui",
+    "source": "Dora's Shadow",
+    "target": "多拉之影",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t124",
+    "kind": "ui",
+    "source": "MOMODORA II STAFF",
+    "target": "MOMODORA II 制作人员",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t125",
+    "kind": "ui",
+    "source": "LEAD PROGRAMMING",
+    "target": "主程序",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t126",
+    "kind": "ui",
+    "source": "rdein",
+    "target": "rdein",
+    "locations": [
+      400863,
+      400863
+    ],
+    "retain_reason": "制作人员作者署名；保留原网名、大小写及重复使用位置，不音译。"
+  },
+  {
+    "id": "t127",
+    "kind": "ui",
+    "source": "PROGRAMMING",
+    "target": "程序",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t128",
+    "kind": "ui",
+    "source": "PKBT#JMickle",
+    "target": "PKBT#JMickle",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "制作人员作者/网名署名；保留原文、大小写、排列顺序及#换行。"
+  },
+  {
+    "id": "t129",
+    "kind": "ui",
+    "source": "GAME DESIGN",
+    "target": "游戏设计",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t130",
+    "kind": "ui",
+    "source": "ART",
+    "target": "美术",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t131",
+    "kind": "ui",
+    "source": "rdein#thernz",
+    "target": "rdein#thernz",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "美术作者网名署名；保留原文、大小写、排列顺序及#换行。"
+  },
+  {
+    "id": "t132",
+    "kind": "ui",
+    "source": "MUSIC",
+    "target": "音乐",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t133",
+    "kind": "ui",
+    "source": "Elektrobear",
+    "target": "Elektrobear",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "音乐作者网名署名；保留原拼写及大小写，不音译。"
+  },
+  {
+    "id": "t134",
+    "kind": "ui",
+    "source": "SOUND EFFECTS",
+    "target": "音效",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t135",
+    "kind": "ui",
+    "source": "rdein#PKBT#Elektrobear",
+    "target": "rdein#PKBT#Elektrobear",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "音效作者网名署名；保留原文、大小写、排列顺序及#换行。"
+  },
+  {
+    "id": "t136",
+    "kind": "ui",
+    "source": "THANKS",
+    "target": "鸣谢",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t137",
+    "kind": "ui",
+    "source": "tsg1zzn#MuZzLe#halo shg#Matt Thorson",
+    "target": "tsg1zzn#MuZzLe#halo shg#Matt Thorson",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "鸣谢名单包含网名和作者姓名；逐字保留拼写、大小写、空格、顺序与#换行。"
+  },
+  {
+    "id": "t138",
+    "kind": "ui",
+    "source": "SPECIAL THANKS",
+    "target": "特别鸣谢",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t139",
+    "kind": "ui",
+    "source": "Ciro#thernz#PKBT#KittenEater#JaJitsu#Eric Grynberg#Studio Pixel#Mark Overmars",
+    "target": "Ciro#thernz#PKBT#KittenEater#JaJitsu#Eric Grynberg#Studio Pixel#Mark Overmars",
+    "locations": [
+      400863
+    ],
+    "retain_reason": "特别鸣谢中的作者、网名及工作室署名不翻译；保留大小写、空格、排列顺序与#换行。"
+  },
+  {
+    "id": "t140",
+    "kind": "ui",
+    "source": "...and You, for playing!",
+    "target": "……还有游玩本作的你！",
+    "locations": [
+      400863
+    ]
+  },
+  {
+    "id": "t141",
+    "kind": "dialogue",
+    "source": "[Chiemi]",
+    "target": "[千惠]",
+    "locations": [
+      408595
+    ]
+  },
+  {
+    "id": "t142",
+    "kind": "dialogue",
+    "source": "[Luna]",
+    "target": "[露娜]",
+    "locations": [
+      409844
+    ]
+  },
+  {
+    "id": "t143",
+    "kind": "dialogue",
+    "source": "[Kaho]",
+    "target": "[卡霍]",
+    "locations": [
+      411091
+    ]
+  },
+  {
+    "id": "t144",
+    "kind": "dialogue",
+    "source": "[Milori]",
+    "target": "[米洛里]",
+    "locations": [
+      412338
+    ]
+  },
+  {
+    "id": "t145",
+    "kind": "dialogue",
+    "source": "Just who are you...?#Are you looking for the sacred power#of this temple too?",
+    "target": "你到底是谁……？#你也在寻找这座神殿#的神圣力量吗？",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t146",
+    "kind": "dialogue",
+    "source": "What? Underworld Queen...?#I didn't know about such thing...",
+    "target": "什么？冥界女王……？#我不知道这回事……",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t147",
+    "kind": "dialogue",
+    "source": "I guess you are not an enemy, then.#I am Eri, princess of the Kingdom of Karst.",
+    "target": "看来你不是敌人。#我是艾莉，卡斯特王国的公主。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t148",
+    "kind": "dialogue",
+    "source": "I'm here because of the many legends concerning#the miraculous power of this shrine.",
+    "target": "我为神殿奇迹之力的#诸多传说而来。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t149",
+    "kind": "dialogue",
+    "source": "With such power, I could bring happiness#to everyone in my country.",
+    "target": "若能得到那股力量，#我就能让我国国民幸福。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t150",
+    "kind": "dialogue",
+    "source": "The people of my kingdom live a terrible life, under#extreme conditions...#Those outside the royal castle are in deep grief.",
+    "target": "我国子民生活凄苦，#处境极其艰难……#王城外的人们深陷悲痛。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t151",
+    "kind": "dialogue",
+    "source": "I fled from the castle the first time I saw#that sorrow with my eyes...#I couldn't stand it.",
+    "target": "第一次亲眼见到#他们的苦难，我就逃出王城……#我实在无法忍受。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t152",
+    "kind": "dialogue",
+    "source": "...Thanks for putting some sense to me.",
+    "target": "……谢谢你让我清醒过来。",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t153",
+    "kind": "dialogue",
+    "source": "Even though we are both fighting for our people,#you showed me how arrogant I am when compared to you...",
+    "target": "虽然我们都为族人而战，#但你让我看见自己有多傲慢……",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t154",
+    "kind": "dialogue",
+    "source": "Your name is Momo, right?#Just like me, you have people that trust you#and are waiting for your return...",
+    "target": "你叫莫莫，对吧？#和我一样，有人信任你，#也正等着你归来……",
+    "locations": [
+      417140
+    ]
+  },
+  {
+    "id": "t155",
+    "kind": "dialogue",
+    "source": "You are that KoHo maiden from before...#So you are really serious about killing me.",
+    "target": "你就是之前那个科霍巫女……#看来你真想杀我。",
+    "locations": [
+      421604
+    ]
+  },
+  {
+    "id": "t156",
+    "kind": "dialogue",
+    "source": "Oh well.#For reaching this far into the temple, you must be a worthy#opponent.",
+    "target": "哦，好吧。#能一路闯到神殿深处，#你确实是个值得一战的对手。",
+    "locations": [
+      421604
+    ]
+  },
+  {
+    "id": "t157",
+    "kind": "dialogue",
+    "source": "#Now get ready to be beaten to death!",
+    "target": "#准备好受死吧！",
+    "locations": [
+      421604
+    ]
+  },
+  {
+    "id": "t158",
+    "kind": "dialogue",
+    "source": "Save your game?",
+    "target": "要保存游戏吗？",
+    "locations": [
+      431910
+    ]
+  },
+  {
+    "id": "t159",
+    "kind": "ui",
+    "source": "Don't save",
+    "target": "不保存",
+    "locations": [
+      435440,
+      435440,
+      435440,
+      435440,
+      435440
+    ]
+  },
+  {
+    "id": "t160",
+    "kind": "dialogue",
+    "source": "THERNZ: I don't even want to be here.",
+    "target": "THERNZ: 我一点也不想待在这儿。",
+    "locations": [
+      439204
+    ]
+  },
+  {
+    "id": "t161",
+    "kind": "dialogue",
+    "source": "KITET: Hey, hey. I'm a pushy fangirl.#Go finish making your indie game.",
+    "target": "KITET: 嘿嘿，我是个热情粉丝。#快去把你的独立游戏做完。",
+    "locations": [
+      440192
+    ]
+  },
+  {
+    "id": "t162",
+    "kind": "dialogue",
+    "source": "JMICKLE: laika come home",
+    "target": "JMICKLE: 莱卡，回家吧",
+    "locations": [
+      441212
+    ]
+  },
+  {
+    "id": "t163",
+    "kind": "dialogue",
+    "source": "JAJITSU: Wizard!",
+    "target": "JAJITSU: 巫师！",
+    "locations": [
+      442186
+    ]
+  },
+  {
+    "id": "t164",
+    "kind": "dialogue",
+    "source": "PKBT: EXTERMINATE.#EXTERMINATE.#EXTERMINATE.",
+    "target": "PKBT: 消灭。#消灭。#消灭。",
+    "locations": [
+      443152
+    ]
+  },
+  {
+    "id": "t165",
+    "kind": "dialogue",
+    "source": "Welcome to the Developer Room!#If you exit through the door the game will end,#so why not take your time here?",
+    "target": "欢迎来到开发者房间！#从门出去游戏就结束了，#不妨在这里慢慢逛逛？",
+    "locations": [
+      444148
+    ]
+  },
+  {
+    "id": "t166",
+    "kind": "dialogue",
+    "source": "RDEIN: I'm glad you made it this far... it means a lot to me.#Thanks for playing this game! I hope you enjoyed it!",
+    "target": "RDEIN: 很高兴你能玩到这里……#这对我意义重大。感谢游玩！#希望你玩得开心！",
+    "locations": [
+      445207
+    ]
+  },
+  {
+    "id": "t167",
+    "kind": "dialogue",
+    "source": "Game saved.",
+    "target": "游戏已保存。",
+    "locations": [
+      447855
+    ]
+  },
+  {
+    "id": "t168",
+    "kind": "dialogue",
+    "source": "ELEKTROBEAR: To plug or not to plug, that is the question.#www.elektrobear.com",
+    "target": "ELEKTROBEAR: 插还是不插，这是个问题。#www.elektrobear.com",
+    "locations": [
+      454563
+    ]
+  },
+  {
+    "id": "t169",
+    "kind": "dialogue",
+    "source": "M... Momo...?",
+    "target": "莫……莫莫……？",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t170",
+    "kind": "dialogue",
+    "source": "I'm glad you came here to save me...",
+    "target": "很高兴你来救我……",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t171",
+    "kind": "dialogue",
+    "source": "Ever since I fought with that Underworld Queen...#something changed in me.",
+    "target": "自从我和那位冥界女王#交战后……我变了。",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t172",
+    "kind": "dialogue",
+    "source": "I couldn't bring my mother back to life... and instead I was#cursed into that monster you defeated.",
+    "target": "我没能让母亲复生……反而#被诅咒，变成你打败的怪物。",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t173",
+    "kind": "dialogue",
+    "source": "I... I am so sorry for everything I've done...",
+    "target": "我……我为所做的一切深感抱歉……",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t174",
+    "kind": "dialogue",
+    "source": "Momo... please forgive me...",
+    "target": "莫莫……请原谅我……",
+    "locations": [
+      460496
+    ]
+  },
+  {
+    "id": "t175",
+    "kind": "dialogue",
+    "source": "And so Momo's mission ended after fighting the Underworld Queen...",
+    "target": "莫莫与冥界女王一战后，#使命就此结束……",
+    "locations": [
+      462138
+    ]
+  },
+  {
+    "id": "t176",
+    "kind": "dialogue",
+    "source": "Peace would last for many decades in KoHo,#as new maidens kept training to protect the village.",
+    "target": "此后数十年，科霍重归和平，#一代代巫女持续修行，#守护村庄。",
+    "locations": [
+      462138
+    ]
+  },
+  {
+    "id": "t177",
+    "kind": "dialogue",
+    "source": "Being able to defeat that shadow...#That's really something.",
+    "target": "能打败那道影子……#你真了不起。",
+    "locations": [
+      466472
+    ]
+  },
+  {
+    "id": "t178",
+    "kind": "dialogue",
+    "source": "Well... I guess I have to take you seriously then.",
+    "target": "好吧……看来我得认真对待你了。",
+    "locations": [
+      466472
+    ]
+  },
+  {
+    "id": "t179",
+    "kind": "ui",
+    "source": "Developer Room",
+    "target": "开发者房间",
+    "locations": [
+      472156,
+      1272945
+    ]
+  },
+  {
+    "id": "t180",
+    "kind": "ui",
+    "source": "-Rahart Hall-",
+    "target": "-拉哈特大厅-",
+    "locations": [
+      476022
+    ]
+  },
+  {
+    "id": "t181",
+    "kind": "ui",
+    "source": "-KoHo Plains-",
+    "target": "-科霍平原-",
+    "locations": [
+      618881
+    ]
+  },
+  {
+    "id": "t182",
+    "kind": "ui",
+    "source": "-Angelus Errare-",
+    "target": "-安杰卢斯·埃拉雷-",
+    "locations": [
+      683031
+    ]
+  },
+  {
+    "id": "t183",
+    "kind": "ui",
+    "source": "-Mint End-",
+    "target": "-明特尽头-",
+    "locations": [
+      751773
+    ]
+  },
+  {
+    "id": "t184",
+    "kind": "ui",
+    "source": "-Milori Sanctum-",
+    "target": "-米洛里圣所-",
+    "locations": [
+      873071
+    ]
+  },
+  {
+    "id": "t185",
+    "kind": "ui",
+    "source": "-Choele Choel-",
+    "target": "-乔埃莱·乔埃尔-",
+    "locations": [
+      1071086
+    ]
+  },
+  {
+    "id": "t186",
+    "kind": "ui",
+    "source": "-Ivory Netherworld-",
+    "target": "-象牙冥界-",
+    "locations": [
+      1148480
+    ]
+  },
+  {
+    "id": "t187",
+    "kind": "ui",
+    "source": "Loading",
+    "target": "读取中",
+    "locations": [
+      146886
+    ],
+    "note": "scr_map_percent 的动态状态后缀，仅地图加载期间显示。"
+  }
+]

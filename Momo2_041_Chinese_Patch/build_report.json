@@ -1,0 +1,60 @@
+{
+  "original_sha256": "a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3",
+  "original_unchanged": true,
+  "source_roundtrip": true,
+  "patched_readback": true,
+  "engine_unchanged": true,
+  "translations": 172,
+  "translation_rows": 187,
+  "retained": 15,
+  "inline_hooks": 20,
+  "script_hooks": 0,
+  "script_slots": [
+    {
+      "slot": 5,
+      "name": "zh_render",
+      "sha256": "e989a3910dde586c0a3900e82d64ae15aa92b6b872eae9abc75145c2da5415a6"
+    },
+    {
+      "slot": 8,
+      "name": "zh_dialogue",
+      "sha256": "7c0ba9868d260aa4977e0a73ab865e25a72bec017b087d06ced3a8aa40685323"
+    },
+    {
+      "slot": 14,
+      "name": "zh_draw_text",
+      "sha256": "832cd697f0bc151a028b0c6bb973d30d4a9b9d9d1f49e490e703e1a5be2430c2"
+    },
+    {
+      "slot": 16,
+      "name": "zh_draw_text_color",
+      "sha256": "275616cf7f4ce6ef18b943da92c117a85435014669f78d3a48273b39cb56f576"
+    },
+    {
+      "slot": 20,
+      "name": "zh_draw_text_transformed",
+      "sha256": "b38cb064a5be46e2f4ff943d680a584d2be8113a811713ddcdacb0641a26a675"
+    },
+    {
+      "slot": 21,
+      "name": "zh_draw_text_transformed_color",
+      "sha256": "63a373b51bd63b1c1e2d0d572d71a0c7dcfd8db06b3ca47b43501ff97e502ab3"
+    },
+    {
+      "slot": 22,
+      "name": "zh_draw_text_ext",
+      "sha256": "de399ad582141c555bef2d419ddbd8be1110b018cd16b231d1d2eef59d34068e"
+    },
+    {
+      "slot": 23,
+      "name": "zh_draw_text_ext_color",
+      "sha256": "5b8bce1ab88881a320909a565d703cfe760a0792f5aa0d0aaf593c0044c59af5"
+    }
+  ],
+  "atlas_size": [
+    1024,
+    1024
+  ],
+  "runtime_tested": true,
+  "runtime_scope": "isolated Windows game copy: title, slot menu, pause text, controls page pixel-exact, gameplay startup; full playthrough and save/read regression pending"
+}
