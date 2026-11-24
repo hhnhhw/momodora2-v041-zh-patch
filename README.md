@@ -4,6 +4,8 @@
 
 ## 下载与使用
 
+[下载一键汉化完整包（Windows x64，约 11 MB）](https://github.com/hhnhhw/momodora2-v041-zh-patch/releases/latest/download/Momodora2ZH_OneClick_v0.1.0_win64.zip)
+
 - Release ZIP：`Momodora2ZH_OneClick_v0.1.0_win64.zip`
 - 单文件安装器：`Momodora2ZH_Setup.exe`（Windows 10/11 x64，无需安装 Python 或联网）
 - SHA-256：`edd307e638d00a5873b4b9309b3485e0d8d120ba75f51690e32351576fe1a5d0`
