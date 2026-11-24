@@ -1,0 +1,12 @@
+﻿{
+    "product":  "Momodora II v041 Simplified Chinese Installer",
+    "version":  "0.1.0",
+    "file":  "Momodora2ZH_Setup.exe",
+    "architecture":  "x64",
+    "one_file":  true,
+    "python_required_on_target":  false,
+    "pyinstaller":  "6.22.3",
+    "python_build_version":  "3.12.6",
+    "size_bytes":  11360393,
+    "sha256":  "edd307e638d00a5873b4b9309b3485e0d8d120ba75f51690e32351576fe1a5d0"
+}

@@ -1,0 +1,318 @@
+{
+  "success": true,
+  "checks": [
+    "packaged-Momodora-2-GUI-visible-with-no-Python-or-Git-PATH",
+    "unique-four-action-ttk-row-found",
+    "GUI-startup-is-read-only",
+    "actual-mouse-click-on-install-button",
+    "Chinese-install-success-dialog-shown",
+    "cwd-default-game-dir-used-and-target-exe-sha256-verified",
+    "all-three-assets-installed-under-data-graphics-misc-and-verified",
+    "complete-momo2-install-receipt-verified",
+    "original-exe-resources-and-existing-save-map-files-preserved",
+    "no-unexpected-files-or-staged-leftovers",
+    "actual-mouse-click-dismisses-success-dialog",
+    "clean-GUI-exit-without-launching-game"
+  ],
+  "count": 12,
+  "gui_button_test": true,
+  "target_python_required": false,
+  "target_git_required": false,
+  "game_launched": false,
+  "scope": "real packaged GUI mouse click on isolated temporary game clone; no live user saves copied or modified",
+  "exe_sha256": "edd307e638d00a5873b4b9309b3485e0d8d120ba75f51690e32351576fe1a5d0",
+  "exe_size_bytes": 11360393,
+  "original_sha256": "a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3",
+  "target_sha256": "5a6659ddccfbcf9b45838a5d2ae92407bd1b65bcd5ed763bf670ef3b60834805",
+  "assets": {
+    "momo2_zh_ctrl.png": "76ffee911750b3423b21003f48a850a6da8d06cc7d811db132b22054f5f071c9",
+    "momo2_zh_text.png": "0090fa2e5155c7464cec2fd0f5290ce3315eabec4ed90e8be8e9e0b11eb25ec2",
+    "atlas_layout.json": "258363c949eeb39960c69d4b988a25976f429c7fb61cf28f2276bda01eb966c8"
+  },
+  "cli_path": "C:\\Windows\\System32;C:\\Windows",
+  "window_title": "Momodora 2 简体中文汉化补丁 - v0.1.0",
+  "controls": [
+    {
+      "hwnd": 311496980,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 90,
+      "y": 125,
+      "w": 1080,
+      "h": 720
+    },
+    {
+      "hwnd": 27461518,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 90,
+      "y": 125,
+      "w": 1080,
+      "h": 720
+    },
+    {
+      "hwnd": 9635184,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 695,
+      "w": 596,
+      "h": 113
+    },
+    {
+      "hwnd": 612633458,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 642,
+      "w": 996,
+      "h": 27
+    },
+    {
+      "hwnd": 15729764,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 597,
+      "w": 368,
+      "h": 35
+    },
+    {
+      "hwnd": 55774690,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 575,
+      "w": 996,
+      "h": 3
+    },
+    {
+      "hwnd": 8064914,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 482,
+      "w": 996,
+      "h": 65
+    },
+    {
+      "hwnd": 2691794,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 945,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 345640750,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 525,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 9244996,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 329,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 35917854,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 481628564,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 423,
+      "w": 897,
+      "h": 32
+    },
+    {
+      "hwnd": 3280580,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 348,
+      "w": 996,
+      "h": 65
+    },
+    {
+      "hwnd": 922392,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 945,
+      "y": 348,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 1708718,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 356,
+      "w": 800,
+      "h": 50
+    },
+    {
+      "hwnd": 46075538,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 303,
+      "w": 218,
+      "h": 35
+    },
+    {
+      "hwnd": 14814354,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 275,
+      "w": 996,
+      "h": 3
+    },
+    {
+      "hwnd": 2494972,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 221,
+      "w": 261,
+      "h": 32
+    },
+    {
+      "hwnd": 74256436,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 158,
+      "w": 275,
+      "h": 60
+    }
+  ],
+  "action_buttons": [
+    {
+      "hwnd": 35917854,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 132,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 9244996,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 329,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 345640750,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 525,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    },
+    {
+      "hwnd": 2691794,
+      "pid": 6164,
+      "title": "",
+      "cls": "TkChild",
+      "x": 945,
+      "y": 482,
+      "w": 183,
+      "h": 65
+    }
+  ],
+  "result_dialog": {
+    "window": {
+      "hwnd": 2756046,
+      "pid": 6164,
+      "title": "汉化完成",
+      "cls": "#32770",
+      "x": 1050,
+      "y": 654,
+      "w": 483,
+      "h": 317
+    },
+    "controls": [
+      {
+        "hwnd": 186912094,
+        "pid": 6164,
+        "title": "确定",
+        "cls": "Button",
+        "x": 1362,
+        "y": 899,
+        "w": 132,
+        "h": 42
+      },
+      {
+        "hwnd": 4394690,
+        "pid": 6164,
+        "title": "",
+        "cls": "Static",
+        "x": 1100,
+        "y": 743,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "hwnd": 5902092,
+        "pid": 6164,
+        "title": "一键汉化成功！\n\n请在游戏目录启动 momodora2_zh.exe。\n原版 momodora2.exe 和存档未改动。",
+        "cls": "Static",
+        "x": 1160,
+        "y": 743,
+        "w": 311,
+        "h": 99
+      }
+    ]
+  },
+  "observed_processes": {
+    "3220": "Momodora2ZH_Setup.exe",
+    "6164": "Momodora2ZH_Setup.exe"
+  },
+  "original_unchanged": true,
+  "installer_unchanged": true
+}

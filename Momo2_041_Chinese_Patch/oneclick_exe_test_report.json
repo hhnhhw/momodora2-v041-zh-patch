@@ -1,0 +1,326 @@
+{
+  "success": true,
+  "passed": [
+    "embedded-manifest-and-three-assets-check-with-zero-game-writes",
+    "onefile-install-verifies-target-and-all-three-resource-sha256",
+    "receipt-format-version-exe-and-complete-assets-verified",
+    "original-resources-and-existing-save-map-files-preserved",
+    "same-version-install-idempotent-without-rewriting-files",
+    "check-after-install-is-read-only",
+    "partial-receipt-missing-momodora2_zh.exe-rejected",
+    "partial-receipt-missing-atlas_layout.json-rejected",
+    "partial-receipt-missing-momo2_zh_ctrl.png-rejected",
+    "partial-receipt-missing-momo2_zh_text.png-rejected",
+    "modified-momodora2_zh.exe-not-overwritten",
+    "modified-momodora2_zh.exe-blocks-entire-uninstall",
+    "modified-atlas_layout.json-not-overwritten",
+    "modified-atlas_layout.json-blocks-entire-uninstall",
+    "modified-momo2_zh_ctrl.png-not-overwritten",
+    "modified-momo2_zh_ctrl.png-blocks-entire-uninstall",
+    "modified-momo2_zh_text.png-not-overwritten",
+    "modified-momo2_zh_text.png-blocks-entire-uninstall",
+    "receipt-empty-blocks-install-and-uninstall",
+    "receipt-missing-assets-blocks-install-and-uninstall",
+    "receipt-partial-assets-map-blocks-install-and-uninstall",
+    "receipt-foreign-format-blocks-install-and-uninstall",
+    "receipt-wrong-exe-hash-blocks-install-and-uninstall",
+    "receipt-wrong-asset-hash-blocks-install-and-uninstall",
+    "receipt-malformed-json-blocks-install-and-uninstall",
+    "even-matching-unowned-files-require-valid-receipt",
+    "safe-uninstall-removes-only-owned-files-preserves-original-and-saves",
+    "uninstall-without-receipt-is-read-only-refusal",
+    "unknown-same-name-file-momodora2_zh.exe-protected",
+    "unknown-same-name-directory-momodora2_zh.exe-protected",
+    "unknown-same-name-file-atlas_layout.json-protected",
+    "unknown-same-name-directory-atlas_layout.json-protected",
+    "unknown-same-name-file-momo2_zh_ctrl.png-protected",
+    "unknown-same-name-directory-momo2_zh_ctrl.png-protected",
+    "unknown-same-name-file-momo2_zh_text.png-protected",
+    "unknown-same-name-directory-momo2_zh_text.png-protected",
+    "unknown-same-name-file-momo2_zh_install.json-protected",
+    "unknown-same-name-directory-momo2_zh_install.json-protected",
+    "wrong-version-or-modified-original-rejected-without-writing",
+    "missing-original-exe-rejected-without-writing",
+    "incomplete-game-missing-graphics-directory-rejected",
+    "receipt-owned-partial-install-can-be-safely-uninstalled"
+  ],
+  "count": 42,
+  "invocations": [
+    {
+      "action": "--cli-check",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-check",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-check",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-check",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-check",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": false,
+      "returncode": 1
+    },
+    {
+      "action": "--cli-install",
+      "expected_success": true,
+      "returncode": 0
+    },
+    {
+      "action": "--cli-remove",
+      "expected_success": true,
+      "returncode": 0
+    }
+  ],
+  "target_python_required": false,
+  "target_git_required": false,
+  "game_launched": false,
+  "test_scope": "isolated temporary game clone under the second-game workspace; no live user saves copied or modified",
+  "exe_sha256": "edd307e638d00a5873b4b9309b3485e0d8d120ba75f51690e32351576fe1a5d0",
+  "exe_size_bytes": 11360393,
+  "original_sha256": "a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3",
+  "target_sha256": "5a6659ddccfbcf9b45838a5d2ae92407bd1b65bcd5ed763bf670ef3b60834805",
+  "assets": {
+    "momo2_zh_ctrl.png": "76ffee911750b3423b21003f48a850a6da8d06cc7d811db132b22054f5f071c9",
+    "momo2_zh_text.png": "0090fa2e5155c7464cec2fd0f5290ce3315eabec4ed90e8be8e9e0b11eb25ec2",
+    "atlas_layout.json": "258363c949eeb39960c69d4b988a25976f429c7fb61cf28f2276bda01eb966c8"
+  },
+  "cli_path": "C:\\Windows\\System32;C:\\Windows",
+  "original_unchanged": true,
+  "installer_unchanged": true
+}

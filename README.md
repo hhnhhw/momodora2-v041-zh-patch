@@ -1,30 +1,43 @@
-﻿# Momodora II v041 — 简体中文补丁
+# Momodora II v041 简体中文补丁
 
-> 与 Momodora I（莫莫多拉1）汉化项目相互独立。本仓库仅包含 **Momodora II v041** 的简体中文补丁源码、翻译和补丁素材；不包含 Momodora I 文件，也不包含原版游戏文件。
+当前独立发布 **v0.1.0 测试版 one-click 安装器**，不与其他 Momodora 项目混用。
 
-## 发布版本
+## 下载与使用
 
-当前为 **v0.1 测试版**。请使用原版 Momodora II v041；补丁安装器通过 `momodora2.exe` SHA-256 校验版本，不匹配时会拒绝安装。
+- Release ZIP：`Momodora2ZH_OneClick_v0.1.0_win64.zip`
+- 单文件安装器：`Momodora2ZH_Setup.exe`（Windows 10/11 x64，无需安装 Python 或联网）
+- SHA-256：`edd307e638d00a5873b4b9309b3485e0d8d120ba75f51690e32351576fe1a5d0`
+- 发布 ZIP SHA-256：`5734778e5160fe598aa6a4bd5fc634d3cc13d8588457f7ee0eb55bdc85c0c5bb`
+- [安装说明](Momo2_041_Chinese_Patch/一键安装说明.md)
+- [文本补丁说明](Momo2_041_Chinese_Patch/README.txt)
 
-- 发布包：`Momodora2_v041_Simplified_Chinese_Patch_v0.1-test.zip`
-- 中文安装和测试说明：[`Momo2_041_Chinese_Patch/README.txt`](Momo2_041_Chinese_Patch/README.txt)
-- 翻译范围：菜单、序章、剧情对白、道具提示、片尾及操作说明；含动态地图加载文字。
+下载并解压 one-click ZIP，双击 `Momodora2ZH_Setup.exe`，选择含原版 `momodora2.exe` 的游戏目录，点击“一键安装汉化”。成功后安装器不自动启动游戏；请在游戏目录手动运行 `momodora2_zh.exe`。GUI 也提供“检查原版”“卸载补丁”和“打开游戏目录”功能。
 
-## 安装
+本工具只支持原版 Momodora II v041 `momodora2.exe`，SHA-256 为：
 
-1. 下载本仓库的补丁 ZIP 并解压。
-2. 将解压后的 `Momo2_041_Chinese_Patch` 文件夹放在游戏目录内或其他位置。
-3. 在原版游戏目录中双击 `RUN_PATCH.cmd`（自动安装后启动）。也可运行 `INSTALL.cmd`，再手动启动 `momodora2_zh.exe`。
-4. **要求 Windows 和 Python 3。** 源码/素材包不附中文运行 EXE；EXE 由安装器从本地原版生成。
+```text
+a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3
+```
 
-安装器只在游戏目录新增汉化 EXE、图集及安装回执；原版 EXE、原始资源和存档不被覆盖。若目标文件已存在且内容不符，会拒绝写入。
+安装器只新增汉化 EXE、中文图集、布局数据和安装回执；不覆盖原版游戏文件或存档。未知同名目标文件会导致安装中止。卸载时也会拒绝删除校验不匹配的文件。安装器无数字签名，SmartScreen 可能提示未知发布者，请从本仓库 Releases 下载并核对哈希。
 
-卸载请退出游戏后运行 `UNINSTALL.cmd`。若补丁文件已被修改，安装器会拒绝删除，以免误删。
+## 项目范围
 
-## 验证状态
+包含 v041 补丁源码、翻译表及其素材。**不包含原版游戏 EXE、原版图片或完整游戏**。本补丁只面向 Momodora II v041。
 
-已验证 Game Maker 资源解包/回包、补丁输出读回和安装/卸载往返。隔离副本实测标题/存档菜单、暂停文字和操作说明页；操作说明截图与新制中文图像素一致，并能启动进入初始游戏场景。**全部剧情流程、全部对白、首领/结局、存档读写和多分辨率尚未完整回归。**
+## 测试状态
 
-## 许可及版权
+构建/回包及目标哈希检查通过；真实 GUI 已在临时游戏克隆中点击“一键安装汉化”，验证成功弹窗、汉化 EXE 和全部图集哈希，并确认原版 EXE、原始资源、存档映射未更改。另有 42 项隔离文件安全测试通过。目标环境 PATH 中无 Python 或 Git，安装器仍完成全部流程。GUI 测试不启动游戏本体。之前单独用源码在隔离克隆验证过启动场景、存档菜单、暂停、操作说明页及游戏初始场景。
 
-此补丁仓库不附带原版游戏 EXE 或原版游戏图片。请合法持有原版 Momodora II。原版游戏 `readme.txt` 说明未经授权不得分发或出售游戏；请勿在此仓库上传原版文件，也不要出售补丁。
+**尚未**完成完整流程、全部剧情对白、所有首领/结局、多分辨率和存档读写回归，故此为测试版。
+
+## 源码构建
+
+64 位 Windows 上使用 Python 3.12.6、PyInstaller 6.22.3 和 zlib 1.3.1：
+
+```powershell
+cd Momo2_041_Chinese_Patch
+.\build_launcher.ps1
+```
+
+安装器内含 CPython/Tcl/Tk 运行时；第三方运行时许可在 EXE 内的“运行时许可”页和随 ZIP 的 `Licenses/` 目录中。
