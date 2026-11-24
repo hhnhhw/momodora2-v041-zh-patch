@@ -4,16 +4,15 @@
 包含简体中文界面、对白、序章、道具提示、片尾和全新绘制的中文操作说明图。标题Logo及版权作者署名保留原样。
 
 【安装要求】
-Windows；Python 3（仅用于运行补丁安装/卸载脚本）；原版 Momodora II v041 游戏目录。
+Windows；无需安装 Python；需有原版 Momodora II v041 游戏目录。
 
 【安装方法】
-1. 解压本补丁文件夹。
-2. 从游戏目录双击 RUN_PATCH.cmd（自动安装后启动）；也可双击 INSTALL.cmd 或命令行运行：
-   py -3 apply_patch.py --game-dir "D:\游戏目录\momodora2_v041"
-3. 完成后从游戏目录启动 momodora2_zh.exe。原版 momodora2.exe 保留不变。
+1. 解压补丁文件夹。
+2. 双击 Momodora2ZH_Setup.exe。
+3. 点击“浏览…”，选中含原版 momodora2.exe 的游戏目录。
+4. 点击“一键安装汉化”。程序先校验原版，再生成汉化文件；成功后请手动启动 momodora2_zh.exe。
 
-应用前可先只读检查：
-   py -3 apply_patch.py --game-dir "D:\游戏目录\momodora2_v041" --check
+也可使用 RUN_PATCH.cmd 或 INSTALL.cmd 打开相同图形界面。原版 momodora2.exe 保留不变。卸载请再次打开 GUI 并点击“卸载补丁”；也可以运行 UNINSTALL.cmd。
 
 补丁只支持此原版 momodora2.exe：
 a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3
@@ -22,7 +21,7 @@ a836f7b90daefe5f603663cdf65ddd10dda8a4eddf086d8c71e02fe71e563af3
 【卸载】
 退出游戏后，双击 UNINSTALL.cmd，或运行：
    py -3 apply_patch.py --game-dir "D:\游戏目录\momodora2_v041" --remove
-卸载只会移除带安装回执且哈希仍匹配的补丁文件；如果其中文件已被修改，卸载器会拒绝删除。
+卸载只会移除带安装回执且哈希仍匹配的补丁文件；如果其中文件已被修改，卸载器会拒绝删除。GUI 操作无需安装 Python；可选命令行工具 `apply_patch.py` 才需要 Python 3。
 
 【测试状态】
 SHA-256 版本锁、解包/回包往返、补丁输出读回及原引擎前缀校验均通过。已在隔离游戏副本启动运行，验证标题/存档选择、暂停文本和操作说明页；游戏内操作说明截图与补丁图逐像素一致，并可用有限按键进入初始游戏场景。尚未完整回归全部对白、全部场景、首领/结局、多分辨率和存读档，因此明确为 v0.1 测试版，建议保留原游戏及存档备份。
